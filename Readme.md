@@ -3,6 +3,7 @@
 * Студент: [Uluk Usonbekov](https://up.htmlacademy.ru/javascript/29/user/2287845).
 * Наставник: [Александр Соболев](https://htmlacademy.ru/profile/sanjoyz).
 
+
 ---
 
 _Не удаляйте и не изменяйте самовольно файлы и папки:_
