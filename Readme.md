@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Uluk Usonbekov](https://up.htmlacademy.ru/javascript/29/user/2287845).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Соболев](https://htmlacademy.ru/profile/sanjoyz).
 
 ---
 
