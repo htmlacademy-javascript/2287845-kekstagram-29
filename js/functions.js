@@ -24,8 +24,7 @@ checkLength('123456789011123456', 18);
 const string10 = function (string, length) {
   if (string.length >= length) {
     return true;
-  }
-  else {
+  } else {
     return false;
   }
 };
@@ -41,8 +40,7 @@ const isPalindrome = function (str) {
   }
   if (result === normalized) {
     return true;
-  }
-  else {
+  } else {
     return false;
   }
 };
