@@ -8,28 +8,8 @@ const checkStringLength = function (string, length) {
 };
 
 checkStringLength('Какая то строка', 20);
-
-// Длина строки ровно 18 символов
-const checkLength = function (string, length) {
-  if (string.length === length) {
-    return true;
-  } else {
-    return false;
-  }
-};
-
-checkLength('123456789011123456', 18);
-
-// Строка длиннее 10 символов
-const string10 = function (string, length) {
-  if (string.length >= length) {
-    return true;
-  } else {
-    return false;
-  }
-};
-
-string10('12345678910', 10);
+checkStringLength('123456789011123456', 18);
+checkStringLength('12345678910', 10);
 
 // Проверка на палиндромом
 const isPalindrome = function (str) {
