@@ -1,6 +1,16 @@
-const AMOUNT_PHOTOS = 25;
+//Const
+const MIN_COMMENT = 0;
+const MAX_COMMENT = 30;
+const MAX_AVATAR = 6;
+const MIN_FUNCTIONS = 1;
+const MAX_FUNCTIONS = 25;
+const MAX_MESSAGE = 2;
+const MIN_LIKES = 15;
+const MAX_LIKES = 200;
 
-const COMMENTS = [
+
+// МАССИВЫ
+const message = [
   'Всё отлично!',
   'В целом всё неплохо. Но не всё.',
   'Когда вы делаете фотографию, хорошо бы убирать палец из кадра. В конце концов это просто непрофессионально.',
@@ -35,4 +45,19 @@ const NAMES = [
   'Dasha',
   'Katusha'
 ];
+
+// ГЕНЕРАТОР СЛУЧАЙНЫХ ЧИСЕЛ
+const getRandomInteger = (minNumber, maxNumber) => {
+  // 1. Находим минимальное и максимальное значение из переданных аргументов
+  const min = Math.ceil(Math.min(Math.abs(minNumber), Math.abs(maxNumber)));
+  const max =  Math.floor(Math.max(Math.abs(minNumber), Math.abs(maxNumber)));
+  // 2. Создаем случайное число в заданном диапазоне
+  const randomize = Math.random() * (max - min + 1) +
+    min;
+  // 3. Округляем полученное случайное число до ближайшего целого
+  return Math.floor(randomize);
+};
+// Пример
+const randomNumber = getRandomInteger(5, 10);
+console.log(randomNumber);
 
