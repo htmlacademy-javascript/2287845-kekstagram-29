@@ -26,5 +26,3 @@ const isPalindrome = function (str) {
 };
 
 isPalindrome('');
-
-
