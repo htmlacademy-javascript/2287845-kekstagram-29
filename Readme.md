@@ -1,7 +1,8 @@
 # Личный проект «Кекстаграм»
 
-* Студент: [Andrey Abramof](https://up.htmlacademy.ru/javascript/29/user/1564865).
-* Наставник: `Соболев Александр`.
+* Студент: [Uluk Usonbekov](https://up.htmlacademy.ru/javascript/29/user/2287845).
+* Наставник:
+
 
 ---
 
