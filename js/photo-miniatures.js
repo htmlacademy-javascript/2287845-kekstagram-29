@@ -13,7 +13,7 @@ const createPhotoMiniature = ({ comments, description, url, likes, id }) => {
   return photoMiniature;
 };
 
-const renderPhotoMiniatures = (pictures, container) => {
+const photoMiniatures = (pictures, container) => {
   container.querySelectorAll('.picture').forEach((element) => element.remove());
   const fragment = document.createDocumentFragment();
   pictures.forEach((picture) => {
@@ -24,4 +24,4 @@ const renderPhotoMiniatures = (pictures, container) => {
   container.append(fragment);
 };
 
-export { renderPhotoMiniatures };
+export { photoMiniatures };

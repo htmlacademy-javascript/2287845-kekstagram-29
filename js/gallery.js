@@ -1,5 +1,5 @@
-import { renderPhotoMiniatures as renderThumbnails } from './render-photo-miniatures.js';
-import { openPictureModal as openFullScreenImage } from './render-full-screen-image.js';
+import { photoMiniatures as renderThumbnails } from './photo-miniatures.js';
+import { openPictureModal as openFullScreenImage } from './full-screen-images.js';
 
 const renderGallery = (pictures) => {
   const galleryContainer = document.querySelector('.pictures');
